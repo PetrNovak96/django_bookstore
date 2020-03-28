@@ -42,9 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites', # new
 
     # Third-party
     'crispy_forms', # new
+    'allauth', # new
+    'allauth.account', # new
 ]
 
 MIDDLEWARE = [
@@ -144,3 +147,20 @@ LOGIN_REDIRECT_URL = 'home' # new
 LOGOUT_REDIRECT_URL = 'home' # new
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4' # new
+
+# django-allauth config
+# https://learndjango.com/tutorials/django-allauth-tutorial
+SITE_ID = 1 # new
+ACCOUNT_LOGOUT_REDIRECT = 'home' # new
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend', # new
+)
+ACCOUNT_SESSION_REMEMBER = True # new
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False # new
+ACCOUNT_USERNAME_REQUIRED = False # new
+ACCOUNT_AUTHENTICATION_METHOD = 'email' # new
+ACCOUNT_EMAIL_REQUIRED = True # new
+ACCOUNT_UNIQUE_EMAIL = True # new
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # new
