@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b50601-3590-44f3-8944-0091fdb1d6ce" name="Default Changelist" comment="" />
+    <list default="true" id="81b50601-3590-44f3-8944-0091fdb1d6ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/books.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/books.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZlVDmWxrFURP5McVWuSb96QGyz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +37,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585413550307</updated>
-      <workItem from="1585413551553" duration="1830000" />
+      <workItem from="1585413551553" duration="2687000" />
     </task>
     <servers />
   </component>
@@ -36,6 +60,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="135" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1585415667521">
+      <screen x="64" y="27" width="1856" height="1053" />
+    </state>
+    <state x="135" y="188" width="1022" height="737" key="SettingsEditor/64.27.1856.1053@64.27.1856.1053" timestamp="1585415667521" />
     <state x="371" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585414146739">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
