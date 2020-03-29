@@ -27,8 +27,22 @@ SECRET_KEY = os.environ.get('SECRET_KEY') # new
 #DEBUG = True
 DEBUG = int(os.environ.get('DEBUG', default=0)) # new
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
+ENVIRONMENT = os.environ.get('ENVIRONMENT', default='development')
+
+print("environment",ENVIRONMENT)
+# production
+if ENVIRONMENT == 'production':
+    SECURE_BROWSER_XSS_FILTER = True # new
+    X_FRAME_OPTIONS = 'DENY'  # new (clickjacking)
+    SECURE_SSL_REDIRECT = True  # new
+    SECURE_HSTS_SECONDS = 3600  # new
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True  # new
+    SECURE_HSTS_PRELOAD = True  # new
+    SECURE_CONTENT_TYPE_NOSNIFF = True  # new
+    SESSION_COOKIE_SECURE = True  # new
+    CSRF_COOKIE_SECURE = True  # new
 
 # Application definition
 
