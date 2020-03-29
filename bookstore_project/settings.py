@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     # Local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'books.apps.BooksConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
