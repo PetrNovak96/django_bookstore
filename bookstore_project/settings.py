@@ -165,4 +165,11 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email' # new
 ACCOUNT_EMAIL_REQUIRED = True # new
 ACCOUNT_UNIQUE_EMAIL = True # new
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # new
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # new
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
+DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com' # new
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = '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'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
