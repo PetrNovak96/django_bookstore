@@ -7,13 +7,21 @@ from django.contrib.auth import get_user_model
 class Book(models.Model):
 
     # lepší idčko
-    id = models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
+    id = models.UUIDField(
+        primary_key=True,
+        db_index=True, # udela index
+        default=uuid.uuid4,
+        editable=False
+    )
     title = models.CharField(max_length=200)
     author = models.CharField(max_length=200)
     price = models.DecimalField(max_digits=6,decimal_places=2)
     cover = models.ImageField(upload_to='covers/', blank=True)  # ukladani obrazku prebalu
 
-    class Meta: # new custom permissions
+    class Meta:
+        indexes = [
+            models.Index(fields=['id'], name='id_index'),
+        ]
         permissions = [
             ('special_status', 'Can read all books'),
         ]
