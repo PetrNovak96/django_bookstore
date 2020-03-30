@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81b50601-3590-44f3-8944-0091fdb1d6ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585413550307</updated>
       <workItem from="1585413551553" duration="7985000" />
-      <workItem from="1585473517039" duration="17776000" />
+      <workItem from="1585473517039" duration="18114000" />
+      <workItem from="1585564341307" duration="155000" />
     </task>
     <servers />
   </component>
@@ -59,10 +57,10 @@
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
     <state x="135" y="188" width="1022" height="737" key="SettingsEditor/64.27.1856.1053@64.27.1856.1053" timestamp="1585476531314" />
-    <state x="274" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585474822757">
+    <state x="274" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585564345202">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
-    <state x="274" y="381" key="com.intellij.ide.util.TipDialog/64.27.1856.1053@64.27.1856.1053" timestamp="1585474822757" />
+    <state x="274" y="381" key="com.intellij.ide.util.TipDialog/64.27.1856.1053@64.27.1856.1053" timestamp="1585564345202" />
     <state x="371" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585417964657">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
